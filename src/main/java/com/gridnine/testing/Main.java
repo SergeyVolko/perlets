@@ -28,7 +28,5 @@ public class Main {
         System.out.println("=".repeat(50));
         flightManager = new FilterFlightManager(allFilters);
         flightManager.getFilterFlight(flights).forEach(System.out::println);
-
-
     }
 }
