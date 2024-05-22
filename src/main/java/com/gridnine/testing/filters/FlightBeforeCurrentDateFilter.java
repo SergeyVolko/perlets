@@ -4,6 +4,9 @@ import com.gridnine.testing.Flight;
 import com.gridnine.testing.Segment;
 import java.time.LocalDateTime;
 
+/**
+ * Фильтрация вылетов до текущего момента времени.
+ */
 public class FlightBeforeCurrentDateFilter implements Filter {
 
     @Override

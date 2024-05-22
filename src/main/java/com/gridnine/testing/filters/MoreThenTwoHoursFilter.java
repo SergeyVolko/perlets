@@ -6,6 +6,11 @@ import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.stream.IntStream;
 
+/**
+ * Фильтрация перелетов, где общее время, проведённое на земле,
+ * превышает два часа (время на земле — это интервал между прилётом одного сегмента и
+ * вылетом следующего за ним)
+ */
 public class MoreThenTwoHoursFilter implements Filter {
     private static final int TWO_HOURS = 2;
 

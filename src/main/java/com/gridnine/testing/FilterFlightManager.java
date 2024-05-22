@@ -4,6 +4,10 @@ import com.gridnine.testing.filters.Filter;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Менеджер фильтрации позволяет отфильтровать отфильтровать передаваемый список перелетовв
+ * и вернуть отфильтрованный результат
+ */
 public class FilterFlightManager {
     private final Filter filter;
 

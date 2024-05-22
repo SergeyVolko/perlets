@@ -2,6 +2,9 @@ package com.gridnine.testing.filters;
 
 import com.gridnine.testing.Flight;
 
+/**
+ * Фильтрация вылетов по сегментам с датой прилёта раньше даты вылета.
+ */
 public class ArrivalEarlierDeparture implements Filter {
 
     @Override
